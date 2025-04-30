@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order a Meal</title>
+</head>
+<body>
+    <h1>Order Your Favorite Meal</h1>
+    <form action="/order" method="POST">
+        <select name="meal" required>
+            <option value="">--Select a Meal--</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Burger">Burger</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Salad">Salad</option>
+            <option value="Rice Bowl">Rice Bowl</option>
+        </select><br><br>
+        <input type="text" name="username" placeholder="Enter your username" required /><br><br>
+        <button type="submit">Place Order</button>
+    </form>
+</body>
+</html>
